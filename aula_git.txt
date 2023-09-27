@@ -1,1 +1,1 @@
-Criado meu primeiro commit git.
+Frase escrita antes do merge.
