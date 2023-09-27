@@ -1,9 +1,13 @@
 git init
 git config --global user.name pauloedu-sousa
 git config --global user.email paulosouzel@hotmail.com
-git add --all
-git commit -m "Criado o arquivo aula_git.txt"
+git add --all "Esse comando realiza as alterações no repositório local"
+git commit -m "Criado o arquivo aula_git.txt" - "Esse comando confirma as alterações no repositório local"
 git commit -m "Criado o arquivo comandos.txt"
-git branch nova-branch
+git branch nova-branch " Esse comando cria uma nova branch"
 git branch
-git checkout nova-branch
+git checkout nova-branch "Esse comando conecta na nova branch"
+git remote add origin "URL do Repositório remoto" -"Esse comando conecta o repositório local com o remoto"
+git branch -M main "Esse comando conecta a branch local com a branch remota"
+git push -u origin main "Esse comando sobe as alterações do repositório local pro remoto"
+git pull " Esse comando traz as alterações do repositório remoto pro local"
