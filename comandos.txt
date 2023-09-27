@@ -3,3 +3,7 @@ git config --global user.name pauloedu-sousa
 git config --global user.email paulosouzel@hotmail.com
 git add --all
 git commit -m "Criado o arquivo aula_git.txt"
+git commit -m "Criado o arquivo comandos.txt"
+git branch nova-branch
+git branch
+git checkout nova-branch
