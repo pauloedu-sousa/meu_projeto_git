@@ -11,3 +11,6 @@ git remote add origin "URL do Repositório remoto" -"Esse comando conecta o repo
 git branch -M main "Esse comando conecta a branch local com a branch remota"
 git push -u origin main "Esse comando sobe as alterações do repositório local pro remoto"
 git pull " Esse comando traz as alterações do repositório remoto pro local"
+git reflog "ESSE COMANDO VERIFICA O HISTORICO DAS VERSÕES DO CÓDIGO ou SEJA DOS COMMITS"
+git reset --hard "ID do Commit para retorno" Ex: 13fb288
+
