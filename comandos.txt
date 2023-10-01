@@ -13,4 +13,3 @@ git push -u origin main "Esse comando sobe as alterações do repositório local
 git pull " Esse comando traz as alterações do repositório remoto pro local"
 git reflog "ESSE COMANDO VERIFICA O HISTORICO DAS VERSÕES DO CÓDIGO ou SEJA DOS COMMITS"
 git reset --hard "ID do Commit para retorno" Ex: 13fb288
-
